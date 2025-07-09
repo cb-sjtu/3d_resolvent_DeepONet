@@ -47,7 +47,7 @@ def main():
 
     branch_net, trunk_net_1, trunk_net_2, dot = network(problem, m, N_points)
 
-    net = DeepONet_resolvent_3d(
+    net = DeepONet_resolvent_3d_mix(
         branch_net,
         trunk_net_1,
         trunk_net_2,
